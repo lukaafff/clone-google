@@ -1,0 +1,205 @@
+* {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+}
+
+nav .itens li {
+    display: flex;
+    padding: 0 0 0 20px;
+    font-size: 13px;
+}
+
+nav .itens li a {
+    text-decoration: none;
+    color: #212121;
+}
+
+nav .itens li a:hover {
+    text-decoration: underline;
+}
+
+nav .itens li .menu {
+    cursor: pointer;
+}
+
+.btn-nav {
+    text-decoration: none;
+    background-color: #1a73e8;
+    padding: 10px 23px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border-style: none;
+    font-size: 14px;
+}
+
+.btn-nav:hover {
+    background-color: #196ad4;
+    box-shadow: 0px 0px 2px #6e6c6c;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .logo  {
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+}
+
+.container .pesquisa {
+    position: relative;
+    bottom: 100px;
+}
+
+.container input {
+    display: flex;
+    height: 44px;
+    width: 584px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.container input:hover {
+    box-shadow: 0px 0px 4px #aaa9a9;
+}
+
+.lupa {
+    position: absolute;
+    left: 16px;
+    top: 13px;
+    width: 20px;
+}
+
+.camera {
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    right: 22px;
+    cursor: pointer;
+}
+
+.microfone {
+    position: absolute;
+    top: 10px;
+    right: 55px;
+    cursor: pointer;
+}
+
+.teclado {
+    position: absolute;
+    top: 17px;
+    right: 90px;
+    cursor: pointer;
+}
+
+.btn-pesquisa {
+    text-decoration: none;
+    background-color: #f8f9fa;
+    padding: 10px 23px;
+    color: #212121;
+    cursor: pointer;
+    border-style: none;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.btn-pesquisa:hover {
+    box-shadow: 0px 0px 4px #aaa9a9; 
+}
+
+.btns {
+    position: relative;
+    right: 500px;
+    bottom: 25px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+}
+
+.footer ul,
+.footer2 ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer ul li,
+.footer2 ul li {
+    display: flex;
+    padding: 10px 0px 10px 25px;
+    font-size: 15px;
+}
+
+.footer ul li a,
+.footer2 ul li a {
+    text-decoration: none;
+    color: #6e6c6c;
+}
+
+.footer ul li a:hover,
+.footer2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
+hr {
+    border: 0;
+	border-top: 1px solid #dddcdc;
+}
+
+p {
+    font-size: 15px;
+    color: #6e6c6c;
+    padding: 20px 0px 10px 25px;
+}
+
+@media (max-width: 1024px){
+    .btns {
+        display: flex;
+        flex-direction: row;
+    }
+    .btn-pesquisa {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1200px){
+    .btns {
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
