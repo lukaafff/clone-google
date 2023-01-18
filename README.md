@@ -11,7 +11,7 @@ em prática meu conhecimento de HTML e CSS.
 Construindo esse projeto encontrei vários desafios pelo caminh,o um 
 deles foi a questão da responsividade, conforme a resolução da tela mudava
 os botões mudavam sua largura e também a logo do google não acompanhava
-a mudança de resolução. Com isso utiluzei o @media para corrigir o problema.
+a mudança de resolução. Com isso utilizei o @media para corrigir o problema.
 ## ❓ FAQ
 
 #### Em quanto tempo foi feito o projeto?
